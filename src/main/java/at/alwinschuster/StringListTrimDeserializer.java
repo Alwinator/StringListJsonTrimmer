@@ -13,7 +13,7 @@ import java.util.List;
 public class StringListTrimDeserializer extends StdDeserializer<List<String>> {
 
     protected StringListTrimDeserializer() {
-        super(String[].class);
+        super(List.class);
     }
 
     @Override
